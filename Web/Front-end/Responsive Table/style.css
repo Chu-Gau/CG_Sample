@@ -1,0 +1,37 @@
+table.cg.table-pinned-header{
+    border-collapse: collapse;
+}
+
+.cg.table-pinned-header thead{
+
+}
+
+.cg.table-pinned-header thead tr{
+    background-color: aquamarine;/**/
+    border: 1px solid lightgray;
+}
+
+.cg.table-pinned-header thead th{
+    
+}
+
+.cg.table-pinned-header tbody{
+
+}
+
+.cg.table-pinned-header tbody tr{
+    
+}
+
+.cg.table-pinned-header tbody tr:nth-child(even){
+    background-color: lightcyan;
+}
+
+.cg.table-pinned-header tbody td{
+    border: 1px solid lightgray;
+
+}
+
+.cg.table-pinned-header {
+
+}

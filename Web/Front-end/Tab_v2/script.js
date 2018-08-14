@@ -4,9 +4,6 @@ $(document).ready(function(){
 
         //Lấy content với class giống y hệt
         $(".cg.tab-content").children().eq($(this).index()).addClass("active");
-        // console.log($(this).in);
-        
-        
         
         $(this).addClass("active");
     });

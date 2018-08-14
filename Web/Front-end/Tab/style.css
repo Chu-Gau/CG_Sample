@@ -28,6 +28,7 @@
     border: 1px solid gray;
     background-color: lightgray;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .cg.tab-header .cg.tab-1.active,

@@ -66,5 +66,5 @@
 .cg.tab-content .cg.tab-5.active,
 .cg.tab-content .cg.tab-6.active,
 .cg.tab-content .cg.tab-7.active{
-    display: block !important; 
+    display: block; 
 }

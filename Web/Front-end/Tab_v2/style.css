@@ -1,0 +1,46 @@
+.cg.tab-container{
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.cg.tab-header{
+    display: block; 
+    width: 100%; /*this is important*/
+    position: relative;
+    bottom: -1px;
+    border-bottom: 1px solid gray;
+}
+
+.cg.tab-header>div{
+    display: table-cell; /*this is important*/
+    border-collapse: collapse; /*this is important*/
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: -3px;
+    border-bottom-right-radius: -3px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+
+.cg.tab-header>div.active{
+    background: white;
+    border-bottom: none;
+}
+
+.cg.tab-content{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-top: none;
+}
+
+.cg.tab-content>div{
+    box-sizing: content-box;
+    display: none;
+}
+
+.cg.tab-content>div.active{
+    display: block; 
+}

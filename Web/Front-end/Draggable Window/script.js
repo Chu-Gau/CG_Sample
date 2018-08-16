@@ -28,7 +28,7 @@ $(document).ready(function () {
         })
     });
 
-    $(".cg.window .title").on("mouseup", function (event) {
+    $(window).on("mouseup", function (event) {
         $(window).off("mousemove");
     });
 });

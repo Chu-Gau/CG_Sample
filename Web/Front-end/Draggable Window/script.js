@@ -1,5 +1,3 @@
-var mousePosition;
-
 $(document).ready(function () {
 
     $(".cg.window .title").on("mousedown", function (event) {

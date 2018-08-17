@@ -1,0 +1,19 @@
+.cg.window{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    background-color: lightgray;
+    border: 1px solid aqua;
+}
+
+.cg.window .title{
+    width: 100%;
+    height: 30px;
+    background-color: lightskyblue;
+}
+
+.cg.window .content{
+    width: 100%;
+    height: auto;
+}

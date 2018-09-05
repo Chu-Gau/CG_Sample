@@ -1,0 +1,39 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+section.main-container{
+    overflow: hidden;
+    height: calc(100% - 200px); /* 100% - (header + footer)*/
+}
+
+footer{
+    height: 100px;
+}
+
+/*
+This is non-required css
+*/
+
+html,
+body{
+    background-color: #EBF7E3;
+}
+header{
+    background-color: #9BD770;
+}
+section.main-container{
+    background: #375F1B;
+}
+footer{
+    background-color: #9BD770;
+}

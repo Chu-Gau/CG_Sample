@@ -14,13 +14,13 @@ header{
 aside{
     width: 250px; 
     overflow: hidden;
-    height: 100%;
+    height: calc(100% - 100px);
     float: left;
 }
 
 section.main-container{
     overflow: hidden;
-    height: 100%;
+    height: calc(100% - 100px);
 }
 
 /*

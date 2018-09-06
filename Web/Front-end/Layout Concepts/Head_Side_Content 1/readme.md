@@ -6,5 +6,6 @@
 
 ## 2. Detailed Descriptions
 
-* Header, Sidebar is fixed
+* Header is fixed
+* Sidebar resizable
 * Content fluid

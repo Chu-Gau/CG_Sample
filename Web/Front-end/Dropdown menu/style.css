@@ -1,0 +1,25 @@
+
+/* Non-required css*/
+.dropdown{
+    float: left;
+}
+
+.dropdown-toggle{
+    background-color: #9BD770;
+    height: 30px;
+    width: 50px;
+    border: #66B032 1px solid;
+    border-bottom: unset;
+    margin: 15px
+}
+
+.dropdown-menu{
+    background-color: #66B032; 
+    height: 150px;
+    width: 200px;
+    position: absolute;
+}
+
+ul{
+    margin: 0;
+}
